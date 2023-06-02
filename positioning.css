@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 290vh;
+    width: 98vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .bgimage{
+    background-image: url("image/netflix_background.png");
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
+.headings .header_items_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98vw;
+    position: relative;
+    bottom: 136px;
+}
+
+.logo {
+    margin: 84px 99px;
+}
+
+.headings .header_items_2 {
+    display: flex;
+    position: relative;
+    bottom: 3px;
+    right: 90px;
+}
+
+.selectlang {
+    margin: auto 20px;
+}
+
+.headings .header_items_2 button {
+    border: 1px #f00 solid;
+    padding: 7px 20px;
+    background: red;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#lang-select {
+    border: 1px #fff solid;
+    padding: 7px 25px;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+/* .titles { display: flex; justify-content: center; align-items: center; padding: 0px 0px; } */
+/* ////////// WRong_way-Code //////////// */
+/* ul{ color: white; list-style: none; font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; } .l1{ font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; font-weight: bold; font-size: xxx-large; } .l2 { font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; font-weight: bold; font-size: x-large; display: flex; justify-content: center; } .l3 { font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; font-weight: bold; font-size: large; } */
+/* ////////// WRong_way-Code //////////// */
+.headings {
+    position: relative;
+    text-align: center;
+    bottom: 590px;
+}
+
+.headings h1 {
+    color: white;
+    font-size: 52px;
+    margin-bottom: 23px;
+}
+
+.headings h6 {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.headings p {
+    color: white;
+    font-size: 21px;
+    font-weight: 200;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    width: 400px;
+    background-color: #0f0f11;
+    color: #bcbbb8;
+}
+
+.input button {
+    border: 1px #f00 solid;
+    padding: 16px 24px;
+    background: red;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    right: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+/* For feature 1 */
+.contents1 {
+    padding: 42px;
+    height: 150px;
+    border: 21px;
+    padding: 7px 10px;
+    position: relative;
+    top: 220px;
+    right: 30px;
+    left: 15px;
+}
+
+.contents1 h1 {
+    color: white;
+    font-size: 52px;
+    position: relative;
+    bottom: 5px;
+}
+
+.contents1 p {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
+    position: relative;
+    top: 15px;
+    width: 930px;
+}
+
+.img1 img {
+    position: relative;
+    height: 614px;
+    width: 804px;
+    bottom: 5px;
+}
+
+
+.contents2{
+    padding: 42px;
+    height: 169px;
+    border: 21px;
+    padding: 7px 10px;
+    position: relative;
+    top: 250px;
+    right: 30px;
+    left: 15px;
+}
+
+.contents2 h1 {
+    color: white;
+    font-size: 52px;
+    position: relative;
+    bottom: 5px;
+}
+
+.contents2 p {
+    color: white;
+    font-size: 28px;
+    font-weight: 200;
+    position: relative;
+    top: 15px;
+    width: 930px;
+}
+
+.img2 img {
+    position: relative;
+    height: 614px;
+    width: 804px;
+    bottom: 5px;
+}
+
+
+.section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 395px;
+    margin: 95px auto;
+    padding: 135px 0px;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 395px;
+    margin: 95px auto;
+    padding: 135px 0px;
+}
+
+/* .gray-line2 hr {
+    background-color: #232323;
+    width: 100vw;
+    position: absolute;
+    top: 96em;
+    height: 4px;
+}
+
+.gray-line3 hr {
+    background-color: #232323;
+    width: 100vw;
+    position: absolute;
+    top: 154em;
+    height: 4px;
+}
+
+.gray-line4 hr {
+    background-color: #232323;
+    width: 100vw;
+    position: absolute;
+    top: 216em;
+    height: 4px;
+}
+
+.gray-line5 hr {
+    background-color: #232323;
+    width: 100vw;
+    position: absolute;
+    top: 278em;
+    height: 4px;
+} */
+
+/* For feature 2 */
+/* .contents2{ padding: 42px; height: 150px; border: 21px; padding: 7px 10px; position: relative; top: 220px; right: 30px; } .contents2 h1{ color: white; font-size: 52px; position: relative; bottom: 5px; } .contents2 p{ color: white; font-size: 28px; font-weight: 200; position: relative; top: 15px; width: 930px; } .img2 img{ position: relative; height: 614px; width: 804px; bottom: 5px; } .section2{ display: flex; justify-content: center; position: relative; bottom: 228px; right: 70px; margin: 60px auto; } .gray-line3 hr{ background-color: #232323; width: 100vw; position: absolute; top: 93em; height: 4px; } */
+.faq-sec {
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+    position: relative;
+    bottom: 80px;
+}
+
+.faq-sec h1 {
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.accordion li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #615a5a;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+label::after {
+    content: '+';
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    font-size: 35px;
+    /* transition: transform 0.8s; */
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background-color: #615a5a;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0px 20px;
+    text-align: left;
+    /* transition: max-height 0.5s, padding 0.5s ; */
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 20px 20px;
+    /* background-color: #f00; color: aquamarine; */
+    transition: max-height 0.5s, padding 0.4s;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+    transition: transform 0.5s;
+}
+
+.faq-sec small {
+    font-size: 20px;
+}
+
+.faq-sec .email_signup {
+    margin: 10px 10px;
+}
+
+.faq-sec button {
+    border: 1px #f00 solid;
+    padding: 16px 24px;
+    background: red;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    right: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.faq-sec .email_input {
+    margin: 10px 10px;
+    padding: 15px 15px;
+    border-radius: 4px;
+    width: 400px;
+    background-color: #0f0f11;
+    color: #bcbbb8;
+}
+
+.footer h2 {
+    color: #615a5a;
+    margin: 40px 15% 40px;
+}
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    position: relative;
+    bottom: -20px;
+}
+
+/* .footer{ display: inline-flex; } */
+/* .footer .column { flex-basis: 25%; flex-grow: 1; margin-bottom: 20px; } */
+.footer .column1 a {
+    display: block;
+    text-decoration: none;
+    /* flex-direction: column; */
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 22px;
+    padding-right: 30px;
+}
+
+.footer .column2 a {
+    display: block;
+    text-decoration: none;
+    /* flex-direction: column; */
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 22px;
+    padding-right: 30px;
+}
+
+.footer .column3 a {
+    display: block;
+    text-decoration: none;
+    /* flex-direction: column; */
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 22px;
+    padding-right: 30px;
+}
+
+.footer .column4 a {
+    display: block;
+    text-decoration: none;
+    /* flex-direction: column; */
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: flex-start;
+    padding: 23px 47px;
+    position: relative;
+    left: 5vw;
+}
+
+#lang-select2 {
+    border: 1px #fff solid;
+    padding: 7px 25px;
+    background: black;
+    color: white;
+    border-radius: 4px;
+    margin-left: 25px;
+    position: relative;
+    left: 5vw;
+}
+
+.footer p {
+    color: #777;
+    margin-top: 40px;
+    padding: 7px 44px;position: relative;
+    left: 5vw;
+}

@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .bgimage{
+        width: 397px;
+    }
+
+    .logo {
+        margin: 25px 11px;
+    }
+
+    .logo img {
+        position: relative;
+        left: 2px;
+        height: 46px;
+        width: 146px;
+    }
+
+    .header_items_1 {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .header_items_2 {
+        display: flex;
+        position: relative;
+        bottom: 3px;
+        flex-direction: column;
+        left: 4px;
+    }
+
+    .header_items_2 button {
+        width: 114px;
+        margin-left: 3px;
+    }
+
+    .header_items_2 .sign-in {
+        position: relative;
+        width: 71px;
+        left: 21px;
+    }
+
+    .selectlang {
+        margin: auto 3px;
+        margin-bottom: auto;
+        margin-bottom: 17px;
+    }
+
+    .headings {
+        bottom: 533px;
+    }
+
+    .headings .header_items_1 {
+        width: 94vw;
+      }
+
+    .headings h1 {
+        color: white;
+        font-size: 26px;
+        margin-bottom: 23px;
+    }
+
+    .headings h6 {
+        font-size: 19px;
+    }
+
+    .headings p {
+        font-size: 15px;
+    }
+
+    .input form {
+        margin-top: 75px;
+    }
+
+    .input input {
+        width: 205px;
+    }
+
+    .input button {
+        padding: 16px 10px;
+    }
+
+    .section1 {
+        margin: 60px auto;
+        padding: 60px 0px;
+        top: -429px;
+    }
+
+    .img1 img {
+        position: relative;
+        height: 210px;
+        width: 290px;
+        bottom: 16px;
+    }
+
+    .contents1 {
+        padding: 42px;
+        height: 150px;
+        border: 21px;
+        padding: 7px 10px;
+        position: relative;
+        top: 47px;
+        left: 12px;
+    }
+
+    .contents1 h1 {
+        font-size: 28px;
+    }
+
+    .contents1 p {
+        width: 318px;
+        top: 15px;
+        font-size: 13px;
+    }
+
+    .contents2 {
+        padding: 42px;
+        height: 124px;
+        border: 21px;
+        padding: 7px 10px;
+        position: relative;
+        top: 47px;
+        left: 20px;
+    }
+
+    .contents2 h1 {
+        font-size: 28px;
+    }
+
+    .contents2 p {
+        width: 339px;
+        top: 15px;
+        font-size: 13px;
+    }
+
+    .faq-sec {
+        bottom: 365px;
+    }
+
+    .faq-sec h1 {
+        font-size: 26px;
+    }
+
+    .faq-sec .email_input {
+        width: 260px;
+      }
+
+    .faq-sec button {
+        right: -8px;
+    }
+
+    .accordion {
+        font-size: 14px;
+    }
+
+    .accordion li {
+        width: 94%;
+      }
+
+    .section2 {
+        margin: 60px auto;
+        padding: 60px 0px;
+        top: -464px;
+    }
+
+    .img2 img {
+        position: relative;
+        height: 232px;
+        width: 290px;
+        bottom: 16px;
+    }
+
+    .footer {
+        padding: 17px 2% 16px;
+        bottom: 146px;
+    }
+
+   
+    .footer h2 {
+        position: relative;
+        margin: 25px 13% 75px;
+        left: -45px;
+    }
+
+    .footer .row {
+        left: 1vw;
+        padding: 25px 2px 190px 2px;
+    }
+
+    .footer p {
+        padding: 7px 3px;
+        position: relative;
+        left: 0vw;
+      }
+
+      #lang-select2 {
+        border: 1px #fff solid;
+        padding: 7px 25px;
+        background: black;
+        color: white;
+        border-radius: 4px;
+        margin-left: 0px;
+        position: relative;
+        left: 0vw;
+    }
+}
