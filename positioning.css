@@ -45,18 +45,26 @@ body {
     margin: auto 20px;
 }
 
-.headings .header_items_2 button {
+.headings .header_items_2  a {
     border: 1px #f00 solid;
-    padding: 7px 20px;
+    padding: 7px 42px;
     background: red;
     color: rgb(255, 255, 255);
     border-radius: 4px;
+    
+}
+
+.headings .header_items_2  input {
+    background: red;
+    border: none;
     cursor: pointer;
+    color: white;
+    font-weight: 800;
 }
 
 #lang-select {
     border: 1px #fff solid;
-    padding: 7px 25px;
+    padding: 7px 42px;
     background: black;
     color: white;
     border-radius: 4px;
@@ -389,6 +397,7 @@ input[type="radio"] {
     color: #777;
     font-size: 14px;
     margin-bottom: 22px;
+
     padding-right: 30px;
 }
 
